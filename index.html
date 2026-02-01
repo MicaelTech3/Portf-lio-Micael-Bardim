@@ -2,35 +2,44 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Micael Bardim</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <img src="perfil.jpeg" class="profile">
+  <img src="perfil.jpeg" alt="Foto de perfil" class="profile">
   <h1>Micael Bardim</h1>
-  <p>Técnico em TI | Informática | Desenvolvimento Web</p>
+  <p>Técnico em TI • Informática • Desenvolvimento Web</p>
+
+  <!-- BOTÕES DE NAVEGAÇÃO -->
+  <div class="nav-buttons">
+    <a href="#perfil" class="nav-btn">Perfil</a>
+    <a href="#projetos" class="nav-btn">Projetos</a>
+  </div>
 </header>
 
 <main class="container">
 
-  <!-- COLUNA ESQUERDA - CURRÍCULO -->
-  <section class="cv">
+  <!-- COLUNA ESQUERDA - PERFIL -->
+  <section class="cv" id="perfil">
+
     <h2>Sobre mim</h2>
     <p>
-        Profissional da área de Tecnologia da Informação, com foco em informática,
-        manutenção de computadores, Linux e desenvolvimento web.
-        Possuo facilidade de aprendizado e busco oportunidades para evolução
-        profissional na área de TI.
+      Profissional da área de Tecnologia da Informação, com foco em informática,
+      manutenção de computadores, configuração de impressoras, Linux e
+      desenvolvimento web.
+      Possuo facilidade de aprendizado e busco constante evolução profissional
+      na área de TI.
     </p>
 
     <h2>Formação</h2>
     <ul>
-      <li><strong>Ensino Médio Completo</strong> – 2025</li>
-      <li>Curso Técnico em TI (em andamento)</li>
-      <li>HTML e CSS – Front End (em andamento)</li>
-      <li>Linux Essentials (em andamento)</li>
+      <li><strong>Ensino Médio Completo</strong> – Conclusão em 2025</li>
+      <li>Curso Técnico em Tecnologia da Informação – em andamento</li>
+      <li>HTML e CSS – Desenvolvimento Front End – em andamento</li>
+      <li>Linux Essentials – Fundamentos do sistema Linux – em andamento</li>
     </ul>
 
     <h2>Habilidades</h2>
@@ -38,36 +47,51 @@
       <li>Informática básica e intermediária</li>
       <li>Manutenção e formatação de computadores</li>
       <li>Instalação e configuração de impressoras</li>
-      <li>Linux básico (interface e comandos)</li>
-      <li>HTML e CSS (básico)</li>
       <li>Instalação de sistemas operacionais</li>
+      <li>Linux básico (interface e comandos)</li>
+      <li>Desenvolvimento de sites com HTML e CSS</li>
     </ul>
 
     <h2>Contato</h2>
-    <p>📧 Email: micaelbardimtech@email.com</p>
-    <p>📱 WhatsApp: (54) 99712-4880</p>
+    <p>📧 Email: <strong>micaelbardimtech@email.com</strong></p>
+    <p>📱 WhatsApp: <strong>(54) 99712-4880</strong></p>
+
   </section>
 
   <!-- COLUNA DIREITA - PROJETOS -->
-  <section class="projects">
-    <h2> Principais Projetos</h2>
+  <section class="projects" id="projetos">
+
+    <h2>Principais Projetos</h2>
 
     <div class="card">
-      <h3>Projeto 1</h3>
-      <p>Digital Signage <i>"em desenvolvimento" (admintester@gmail.com - admin01)</i></p>
-      <a href="https://dsignertv.com.br" target="_blank">Acessar</a>
+      <h3>Digital Signage</h3>
+      <p>
+        Sistema de Digital Signage para TVs, com gerenciamento remoto de conteúdo
+        e painel administrativo.
+        <br>
+        <i>Projeto em desenvolvimento</i><br>
+        <i>Login: admintester@gmail.com | Senha: admin01</i>
+      </p>
+      <a href="https://dsignertv.com.br" target="_blank">Acessar projeto</a>
     </div>
 
     <div class="card">
-      <h3>Projeto 2</h3>
-      <p>Portfólio Profissional Premium</p>
-      <a href="https://leestorymaker.vercel.app" target="_blank">Acessar</a>
+      <h3>Portfólio Profissional – Layout Premium</h3>
+      <p>
+        Site profissional moderno com foco em identidade visual e apresentação
+        profissional. Este modelo representa o padrão visual dos meus projetos.
+      </p>
+      <a href="https://leestorymaker.vercel.app" target="_blank">Acessar projeto</a>
     </div>
 
     <div class="card">
-      <h3>Projeto 3</h3>
-      <p>Administrar Tarefas <i>"8989 senha para volta parao admin"</i></p>
-      <a href="https://tarefastech.vercel.app" target="_blank">Acessar</a>
+      <h3>Gerenciador de Tarefas</h3>
+      <p>
+        Sistema web para organização de tarefas com painel administrativo.
+        <br>
+        <i>Senha de retorno ao modo administrador: 8989</i>
+      </p>
+      <a href="https://tarefastech.vercel.app" target="_blank">Acessar projeto</a>
     </div>
 
   </section>
@@ -75,7 +99,7 @@
 </main>
 
 <footer>
-  <p>© 2026 - Micael Bardim</p>
+  <p>© 2026 - Micael Bardim • Portfólio Profissional</p>
 </footer>
 
 </body>
